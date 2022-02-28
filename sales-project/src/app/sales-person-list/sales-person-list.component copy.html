@@ -1,0 +1,28 @@
+<p>sales-person-list works!</p>
+<p>Just a quick test!</p>
+
+<table border="1">
+
+
+    <thead>
+
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Sales Volume</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let temp of salesPersonList">
+            <td> {{ temp.firstName }} </td>
+            <td> {{ temp.lastName }} </td>
+            <td> {{ temp.email }} </td>
+            <td> {{ temp.salesVolume }} </td>
+        </tr>
+
+
+    </tbody>
+
+</table>
