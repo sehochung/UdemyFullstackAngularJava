@@ -736,7 +736,7 @@ table.table.table-bordered th{
 
  .btn-info{
     color:#fff;
-    background-color:#0da8e4!important;
+    background-color:#e41b0d!important;
     border-color:#0da8e4!important
 }
 a.primary-btn{
@@ -744,14 +744,14 @@ a.primary-btn{
     padding:7px 20px;
     text-align:center;
     display:inline-block;
-    color:#fff;
+    color:rgb(189, 10, 10);
     border-radius:2px;
     font-size:14px;
     margin-top:5px
 }
 a.primary-btn:hover{
     background:#0da8e4;
-    color:#fff
+    color:rgb(228, 45, 25)
 }
 
 .active-link {
@@ -920,7 +920,7 @@ footer ul li{
         font-size:22px;
         float:left;
         margin-top:16px;
-        color:#205b8d;
+        color:#d81414;
         margin-left:15px
     }
         .header-wrap2{
